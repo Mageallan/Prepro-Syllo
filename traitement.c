@@ -7,7 +7,7 @@ int verify(int q1, int q2, int q3, int rules[]){
     int u1, u2, u3; // Universal booleans
     int p1, p2, p3; // Positif booleans
 
-    // Transform qx in two booleans px and ux according to the value they have
+    // Transform qx in two booleans px and ux according to the value they have 
     translate(q1, &p1, &u1);
     translate(q2, &p2, &u2);
     translate(q3, &p3, &u3);
